@@ -79,6 +79,44 @@ div {
     line-height: 1.33;
 }
 
+.cases {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices {
+    /*width: 20%;*/
+    display: inline-block;
+    /* styles to assist with debugging */
+    margin: 0 50px;
+    float: left;
+    height: 4em;
+}
+
+.cases img {
+	height: 160px;
+}
+
+.cases .devices h3 {
+	color: black;
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
 header {
 	width: 100%;
 	height: 4.5rem;
