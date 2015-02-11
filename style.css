@@ -24,6 +24,11 @@ a:nth-child(1) {
 	min-width: 835px;
 }
 
+.content1 {
+	margin: 0 auto;
+	min-width: 835px;
+}
+
 .active a {
 	color: #333333;
 }
@@ -82,6 +87,8 @@ div {
 .cases {
 	display: flex;
 	flex-wrap: nowrap;
+	height: 20em;
+	margin-top: 3em;
 }
 
 .cases h2 {
@@ -111,10 +118,14 @@ div {
 }
 
 .cases .content {
-    margin-top: 7.875rem;
+    /*margin-top: 7.875rem;*/
     padding: none;
     color: #1d1e21;
     text-align: center;
+}
+
+hr {
+	margin-top: 10em;
 }
 
 header {
@@ -146,6 +157,39 @@ header img {
 body {
     /*background-color: LightGray;*/
 }
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    text-align: center;
+}
+
+.social .icons > li {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
 
 @media (min-width: 0px) {
 	header ul {
