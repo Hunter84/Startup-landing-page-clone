@@ -204,7 +204,11 @@ body {
 		margin: .8em 0 0 10%;
 	}
 }
-
+@media (max-width: 1000px) {
+	.cases img {
+	height: 120px;
+}
+}
 @media (min-width: 1200px) {
 	header ul {
 		padding: 0 18%;
